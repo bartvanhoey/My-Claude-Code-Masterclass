@@ -3,13 +3,20 @@ description: Create a commit message by analyzing git diffs
 allowed-tools: Bash(git add:*) Bash(git status:*), Bash(git diff --staged), Bash(git commit:*)
 ---
 
-## Run these commands:
+## context:
 
-```bash
+- Current git add: !`git add .`
+- Current git status: !`git status`
+- Current git diff: !`git diff --staged`
+
+
+<!-- ## Run these commands: -->
+
+<!-- ```bash
 git add .
 git status
 git diff --staged
-```
+``` -->
 
 ## Your task:
 
