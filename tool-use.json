@@ -1,0 +1,41 @@
+{
+  "session_id": "b0eecccd-600b-467c-87f0-119f2e5aa92f",
+  "transcript_path": "/Users/bartvanhoey/.claude/projects/-Users-bartvanhoey-Development-Claude-Claude-Code-Masterclass/b0eecccd-600b-467c-87f0-119f2e5aa92f.jsonl",
+  "cwd": "/Users/bartvanhoey/Development/Claude/Claude-Code-Masterclass",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "/Users/bartvanhoey/Development/Claude/Claude-Code-Masterclass/app/(public)/login/page.tsx",
+    "old_string": "      <h1 className=\"form-title\">Log in to Your Account</h1>",
+    "new_string": "      <h2 className=\"form-title\">Log in to Your Account</h2>",
+    "replace_all": false
+  },
+  "tool_response": {
+    "filePath": "/Users/bartvanhoey/Development/Claude/Claude-Code-Masterclass/app/(public)/login/page.tsx",
+    "oldString": "      <h1 className=\"form-title\">Log in to Your Account</h1>",
+    "newString": "      <h2 className=\"form-title\">Log in to Your Account</h2>",
+    "originalFile": "export default function SignupPage() {\n  return (\n    <div className=\"center-content\">\n      <div className=\"page-content\">\n      <h1 className=\"form-title\">Log in to Your Account</h1>\n      </div>\n    </div>\n  );\n}\n",
+    "structuredPatch": [
+      {
+        "oldStart": 2,
+        "oldLines": 7,
+        "newStart": 2,
+        "newLines": 7,
+        "lines": [
+          "   return (",
+          "     <div className=\"center-content\">",
+          "       <div className=\"page-content\">",
+          "-      <h1 className=\"form-title\">Log in to Your Account</h1>",
+          "+      <h2 className=\"form-title\">Log in to Your Account</h2>",
+          "       </div>",
+          "     </div>",
+          "   );"
+        ]
+      }
+    ],
+    "userModified": false,
+    "replaceAll": false
+  },
+  "tool_use_id": "toolu_017TAZwwAAUNt6RopBRf4PEE"
+}

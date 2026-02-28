@@ -1,5 +1,6 @@
 // preview page for newly created UI components
 import Skeleton from "@/components/Skeleton"
+import Avatar from "@/components/Avatar"
 
 export default function PreviewPage() {
   return (
@@ -13,6 +14,16 @@ export default function PreviewPage() {
         <Skeleton />
         <Skeleton />
       </div>
+
+      <section>
+        <h3>Avatar</h3>
+        <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+          <Avatar name="john" />
+          <Avatar name="JohnDoe" />
+          <Avatar name="BartVanHoey" />
+          <Avatar name="Alice" />
+        </div>
+      </section>
     </div>
   )
 }
